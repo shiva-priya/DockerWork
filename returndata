@@ -1,0 +1,169 @@
+{
+   u   'Reservations':[
+      {
+         u         'Instances':[
+            {
+               u               'Monitoring':{
+                  u                  'State':'disabled'
+               },
+               u               'PublicDnsName':'ec2-54-237-24-109.compute-1.amazonaws.com',
+               u               'State':{
+                  u                  'Code':16,
+                  u                  'Name':'running'
+               },
+               u               'EbsOptimized':False,
+               u               'LaunchTime':datetime.datetime(2020,
+               1,
+               6,
+               6,
+               7,
+               45,
+               tzinfo=tzutc()),
+               u               'PublicIpAddress':'54.237.24.109',
+               u               'PrivateIpAddress':'10.0.121.23',
+               u               'ProductCodes':[
+
+               ],
+               u               'VpcId':'vpc-01e30774bed6580ae',
+               u               'CpuOptions':{
+                  u                  'CoreCount':1,
+                  u                  'ThreadsPerCore':1
+               },
+               u               'StateTransitionReason':'',
+               u               'InstanceId':'i-0928d3de654a9b4a9',
+               u               'EnaSupport':True,
+               u               'ImageId':'ami-04763b3055de4860b',
+               u               'PrivateDnsName':'ip-10-0-121-23.ec2.internal',
+               u               'KeyName':'testtrain',
+               u               'SecurityGroups':[
+                  {
+                     u                     'GroupName':'launch-wizard-1',
+                     u                     'GroupId':'sg-00695abdf00ba24a6'
+                  }
+               ],
+               u               'ClientToken':'',
+               u               'SubnetId':'subnet-0b136f6a5073f103a',
+               u               'InstanceType':'t2.micro',
+               u               'CapacityReservationSpecification':{
+                  u                  'CapacityReservationPreference':'open'
+               },
+               u               'NetworkInterfaces':[
+                  {
+                     u                     'Status':'in-use',
+                     u                     'MacAddress':'06:c3:8b:5e:58:df',
+                     u                     'SourceDestCheck':True,
+                     u                     'VpcId':'vpc-01e30774bed6580ae',
+                     u                     'Description':'Primary network interface',
+                     u                     'NetworkInterfaceId':'eni-0e43b93d86825bc1f',
+                     u                     'PrivateIpAddresses':[
+                        {
+                           u                           'PrivateDnsName':'ip-10-0-121-23.ec2.internal',
+                           u                           'PrivateIpAddress':'10.0.121.23',
+                           u                           'Primary':True,
+                           u                           'Association':{
+                              u                              'PublicIp':'54.237.24.109',
+                              u                              'PublicDnsName':'ec2-54-237-24-109.compute-1.amazonaws.com',
+                              u                              'IpOwnerId':'amazon'
+                           }
+                        }
+                     ],
+                     u                     'PrivateDnsName':'ip-10-0-121-23.ec2.internal',
+                     u                     'InterfaceType':'interface',
+                     u                     'Attachment':{
+                        u                        'Status':'attached',
+                        u                        'DeviceIndex':0,
+                        u                        'DeleteOnTermination':True,
+                        u                        'AttachmentId':'eni-attach-020a02afe076e6610',
+                        u                        'AttachTime':datetime.datetime(2020,
+                        1,
+                        6,
+                        6,
+                        7,
+                        45,
+                        tzinfo=tzutc())
+                     },
+                     u                     'Groups':[
+                        {
+                           u                           'GroupName':'launch-wizard-1',
+                           u                           'GroupId':'sg-00695abdf00ba24a6'
+                        }
+                     ],
+                     u                     'Ipv6Addresses':[
+
+                     ],
+                     u                     'OwnerId':'178272758153',
+                     u                     'PrivateIpAddress':'10.0.121.23',
+                     u                     'SubnetId':'subnet-0b136f6a5073f103a',
+                     u                     'Association':{
+                        u                        'PublicIp':'54.237.24.109',
+                        u                        'PublicDnsName':'ec2-54-237-24-109.compute-1.amazonaws.com',
+                        u                        'IpOwnerId':'amazon'
+                     }
+                  }
+               ],
+               u               'SourceDestCheck':True,
+               u               'Placement':{
+                  u                  'Tenancy':'default',
+                  u                  'GroupName':'',
+                  u                  'AvailabilityZone':'us-east-1d'
+               },
+               u               'Hypervisor':'xen',
+               u               'BlockDeviceMappings':[
+                  {
+                     u                     'DeviceName':'/dev/sda1',
+                     u                     'Ebs':{
+                        u                        'Status':'attached',
+                        u                        'DeleteOnTermination':True,
+                        u                        'VolumeId':'vol-00d50b6d868efd0d6',
+                        u                        'AttachTime':datetime.datetime(2020,
+                        1,
+                        6,
+                        6,
+                        7,
+                        46,
+                        tzinfo=tzutc())
+                     }
+                  }
+               ],
+               u               'Architecture':'x86_64',
+               u               'RootDeviceType':'ebs',
+               u               'RootDeviceName':'/dev/sda1',
+               u               'VirtualizationType':'hvm',
+               u               'Tags':[
+                  {
+                     u                     'Value':'Training-Testinstance',
+                     u                     'Key':'Name'
+                  }
+               ],
+               u               'HibernationOptions':{
+                  u                  'Configured':False
+               },
+               u               'MetadataOptions':{
+                  u                  'State':'applied',
+                  u                  'HttpEndpoint':'enabled',
+                  u                  'HttpTokens':'optional',
+                  u                  'HttpPutResponseHopLimit':1
+               },
+               u               'AmiLaunchIndex':0
+            }
+         ],
+         u         'ReservationId':'r-0798187794b24bfef',
+         u         'Groups':[
+
+         ],
+         u         'OwnerId':'178272758153'
+      }
+   ],
+   'ResponseMetadata':{
+      'RetryAttempts':0,
+      'HTTPStatusCode':200,
+      'RequestId':'9caf8b9e-6750-47e3-9de1-9dc7ef3569ee',
+      'HTTPHeaders':{
+         'date':'Mon, 06 Jan 2020 10:17:00 GMT',
+         'content-type':'text/xml;charset=UTF-8',
+         'content-length':'7211',
+         'vary':'accept-encoding',
+         'server':'AmazonEC2'
+      }
+   }
+}
